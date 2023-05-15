@@ -32,7 +32,7 @@ body.active-modal {
 }
     
 }
-.modal-content {
+.modalContent{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,22 +66,22 @@ body.active-modal {
     }
 }
 
-.close-modal {
+.closeBtn {
     position: absolute;
     top: 10px;
     right: 10px;
     padding: 5px 7px;
     border: none;
-    background-color: inherit;
+    background-color: transparent;
 }
 
-.icon-close {
+.closeIcon {
     width: 24px;
     height: 24px;
     color: #54ADFF;
 }
-.icon-close:hover,
-.icon-close:focus {
+.closeIcon:hover,
+.closeIcon:focus {
     color: black;
 }
 
@@ -95,8 +95,8 @@ body.active-modal {
     text-align: center;
 
 @media screen and (min-width: 768px) {
-        margin-left: 24px;
-        margin-right: 42px;
+        /* margin-left: 24px;
+        margin-right: 42px; */
         margin-bottom: 20px;
     }
 
@@ -118,48 +118,50 @@ body.active-modal {
     
 }
 
-.icon {
+/* .icon {
     color: inherit;
     margin-left: 8px;
-    transform: rotate(25deg);
     width: 24px;
     height: 24px;
-  }
+  } */
 
 
 
 
 
-p {
+/* p {
     margin: 0;
     padding: 0;
-}
+} */
 
 /* h2 {
     margin: 0;
     padding: 0;
 } */
 
-.button-wrap {
-    display: flex;
-    flex-wrap: wrap;
-  margin-top: 20px;
-  margin-left: 12px;
+.buttonWrap {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  /* margin-top: 20px; */
+  /* margin-left: 12px; */
   margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {
-    margin-left: 8px;
+    /* margin-left: 8px; */
   }
 }
 
-.modal-button {
+.modalBtn {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     padding: 8px 20px;
 
-    width: 256px;
+    width: 129px;
     height: 40px;
 
     cursor: pointer;
@@ -169,19 +171,25 @@ p {
     line-height: 1.37;
     letter-spacing: 0.04em;
    
-    background-color: #54ADFF;
-    color: #FEF9F9;
-    border: 1px solid #54ADFF;
+    background-color: #FEF9F9;
+    border: 2px solid #54ADFF;
+    color: #54ADFF;
     border-radius: 40px;
 
     
 
 }
 
-.modal-button:hover,
-.modal-button:focus {
-    background-color: #FEF9F9;
-    border: 2px solid #54ADFF;
-    color: #54ADFF;
+.modalBtn:hover,
+.modalBtn:focus {
+    background-color: #54ADFF;
+    color: #FEF9F9;
+    border: 1px solid #54ADFF;
 }
+
+/* .btnAgree{
+    margin-left: 5px;
+} */
+
+
 
