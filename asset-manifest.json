@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-modal04_deploy/static/css/main.5a38c2cc.css",
-    "main.js": "/react-modal04_deploy/static/js/main.464c5ae1.js",
+    "main.css": "/react-modal04_deploy/static/css/main.9dc74dbf.css",
+    "main.js": "/react-modal04_deploy/static/js/main.7eb3743a.js",
     "index.html": "/react-modal04_deploy/index.html",
-    "main.5a38c2cc.css.map": "/react-modal04_deploy/static/css/main.5a38c2cc.css.map",
-    "main.464c5ae1.js.map": "/react-modal04_deploy/static/js/main.464c5ae1.js.map"
+    "main.9dc74dbf.css.map": "/react-modal04_deploy/static/css/main.9dc74dbf.css.map",
+    "main.7eb3743a.js.map": "/react-modal04_deploy/static/js/main.7eb3743a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a38c2cc.css",
-    "static/js/main.464c5ae1.js"
+    "static/css/main.9dc74dbf.css",
+    "static/js/main.7eb3743a.js"
   ]
 }
