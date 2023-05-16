@@ -31,7 +31,7 @@ export default function Modal() {
             <h2 className={css.title}>Already leaving?</h2>
         
             <div className={css.buttonWrap}>
-              <button className={css.modalBtn}>Cancel</button>
+              <button className={css.modalBtn} onClick={toggleModal}>Cancel</button>
               {/* <button className={`${css.modalBtn} ${css.btnAgree}`} >Yes <BsBoxArrowLeft className={css.icon} /></button> */}
             <ButtonAgree/>
             </div>
